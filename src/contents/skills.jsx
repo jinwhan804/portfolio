@@ -96,7 +96,7 @@ const Skills = () => {
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>데이터베이스의 테이블 생성, 데이터 입력, 수정 등의 데이터 관리를 해보았습니다.</li>
-                                <li>Primary Key, Foreign Key의 개념을 알고 1:1, 1:N, N:M 관계 설정을 연결해 보았습니다..</li>
+                                <li>Primary Key, Foreign Key의 개념을 알고 1:1, 1:N, N:M 관계 설정을 연결해 보았습니다.</li>
                             </ul>
                         </li>
                     </ul>
