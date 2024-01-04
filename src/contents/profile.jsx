@@ -41,7 +41,7 @@ const Profile = () => {
         >
             <div className="w-[280px] md:w-[28%] ">
                 <img
-                    src="https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmbqhHYKqmgNceQmzNNVE8ZKM85w6wieE2fusvCiZX9PYJ"
+                    src="https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmYiUBZwDPnR6JXa8wvHZBFo7DNxt52kavyy2PSygqoZZp"
                     aria-hidden
                     alt="profile image"
                     className="w-[100vw] m-auto rounded-full border-2 border-slate-500"
