@@ -58,6 +58,33 @@ const Skills = () => {
 
                 <li className="flex flex-row gap-[32px] py-[32px]">
                     <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
+                        프론트 앤드
+                    </h3>
+                    <ul className="flex flex-col gap-[16px] text-[16px] pb-[32px] font-medium w-full items-start">
+                        <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
+                            <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex md:flex-col items-center gap-[8px]">
+                                <div className="flex items-center gap-[8px]">
+                                    <SiReact />
+                                    <span className="md:w-[120px]">React</span>
+                                </div>
+                                <div className="flex items-center gap-[8px]">
+                                    <SiRedux />
+                                    <span className="md:w-[120px]">Redux</span>
+                                </div>
+                            </span>
+                            <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
+                                <li>react의 생명주기에 대해 숙지했습니다.</li>
+                                <li>함수형과 객체지향의 차이점을 숙지하였습니다.</li>
+                                <li>상태관리에 대해 이해하고 redux를 활용하여 상태관리를 하였습니다.</li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </li>
+
+
+                <li className="flex flex-row gap-[32px] py-[32px]">
+                    <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
                         백앤드
                     </h3>
                     <ul className="flex flex-col gap-[16px] text-[16px] pb-[32px] font-medium w-full items-start">
