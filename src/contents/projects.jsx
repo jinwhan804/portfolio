@@ -6,11 +6,26 @@ import { DiTrello } from 'react-icons/di'
 import { DiReact } from 'react-icons/di'
 import useModal from '../hooks/useModal'
 import Modal from '../components/modal'
+import ImageAndVideoSlider from '../components/slider'
 
 const Projects = () => {
     const [isShowingModal, toggleModal] = useModal()
     const [isShowingModal2, toggleModal2] = useModal()
     const [isShowingModal3, toggleModal3] = useModal()
+
+    const images1 = [
+        'https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmZNrPpebf82PQPx2kJatuU3gJj2hwmPehrSumhVvdYEJZ',
+        'https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmfHsysMuYg8CU7TJymxrBfBdAvRVtqJf7gUgrGJqsbFJC',
+        'https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmZa5jb3uJyMCMcNuvLpbhtZGYdnVwhvGwBqBxh2bmC4Bc',
+        'https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmWWULhBNcWua2EWuCaE2ZRZVS6DYRGVLBq91ra6mZUxKP'
+    ]
+
+    const images2 = [
+        'https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmepkCp2Z2ruGWjWPF4WTu3UyCCEVvwRaeyHVAmNgTtfNS',
+        'https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmYuexBnJ6GjhRfzngWKmT6H26qteTq1FRYjmD314WtGac',
+        'https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmNz5FS5prZArcioHQ9iC5d2RmNcTatx2k3CzrYZ2HfKnx',
+        'https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/Qma3C1qTDHLdPcaWfYK8hFkfYFxUzU7UgjZuYjwwrL5D56'
+    ]
 
     return (
         <Wrapper>
@@ -30,12 +45,12 @@ const Projects = () => {
                             <li className="text-stone-500">2023. 11. 01 ~ 2023. 12. 05</li>
                             <li>back-end</li>
                             <li>
-                                {/* <button
+                                <button
                                     onClick={toggleModal}
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                 >
                                     상세보기
-                                </button> */}
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -131,7 +146,7 @@ const Projects = () => {
                 </li>
 
                 {/* 세번째 프로젝트 */}
-                <li className="flex flex-col gap-[32px] md:flex-row">
+                {/* <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
                             src="https://moccasin-odd-penguin-381.mypinata.cloud/ipfs/QmUaQtGJrEK3SjnJyNArhWaVWe9ZUh1YCA8BbkdQH6GSHd"
@@ -143,12 +158,12 @@ const Projects = () => {
                             <li className="text-stone-500">2023. 06. 05 ~ 2023. 06. 26</li>
                             <li>front-end, back-end</li>
                             <li>
-                                {/* <button
+                                <button
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                     onClick={toggleModal3}
                                 >
                                     상세보기
-                                </button> */}
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -182,15 +197,15 @@ const Projects = () => {
                             <li>AWS EC2를 통해 Front-end 서버와 Back-end 서버를 배포하였습니다.</li>
                         </ul>
                     </div>
-                </li>
+                </li> */}
             </ul>
 
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal}>
-                test
+                <ImageAndVideoSlider images={images1}/>
             </Modal>
 
             <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
-                test2222
+                <ImageAndVideoSlider images={images2}/>
             </Modal>
 
             <Modal show={isShowingModal3} onCloseButtonClick={toggleModal3}>
