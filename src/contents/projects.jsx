@@ -102,12 +102,12 @@ const Projects = () => {
                             <li className="text-stone-500">2023. 08. 03 ~ 2023. 08. 28</li>
                             <li>front-end, back-end</li>
                             <li>
-                                {/* <button
+                                <button
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                     onClick={toggleModal2}
                                 >
                                     상세보기
-                                </button> */}
+                                </button>
                             </li>
                         </ul>
                     </div>
