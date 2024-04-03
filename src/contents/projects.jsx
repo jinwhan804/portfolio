@@ -57,7 +57,7 @@ const Projects = () => {
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
                             Bounce Explorer (협약 프로젝트){' '}
-                            <a href="https://www.bouncexplorer.site">
+                            <a href="">
                                 <FaExternalLinkAlt />
                             </a>
                         </h2>
@@ -74,17 +74,16 @@ const Projects = () => {
                             <DiGithubBadge />
                             <SiTypescript />
                             <SiExpress />
-                            <DiReact />
-                            <SiNextdotjs />
                             <SiPostgresql />
                             <SiAmazonec2 />
                         </div>
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>연결된 블록체인 네트워크로부터 전달받은 데이터들을 저장하기 위한 Database를 설계했습니다.</li>
-                            <li>전달 받은 데이터들의 저장, 수정 등의 기능과 클라이언트로의 데이터 전송을 위한 기능을 구현했습니다.</li>
-                            <li>AWS EC2를 통해 Back-end 서버를 배포했습니다.</li>
+                            <li>블록체인 네트워크의 블록 데이터 저장을 위한 Schema 설계</li>
+                            <li>블록 Number를 통한 블록 데이터 검색 기능 구현</li>
+                            <li>트랜잭션 CA를 통한 트랜잭션 데이터 검색 기능 구현</li>
+                            <li>AWS EC2를 활용한 Back-end 서버 배포</li>
                         </ul>
                     </div>
                 </li>
@@ -100,7 +99,7 @@ const Projects = () => {
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">팀플 프로젝트 (3명)</li>
                             <li className="text-stone-500">2023. 08. 03 ~ 2023. 08. 28</li>
-                            <li>front-end, back-end</li>
+                            <li>back-end, front-end</li>
                             <li>
                                 <button
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
@@ -137,10 +136,11 @@ const Projects = () => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>유저 관리와 게시물 관리를 위한 Database를 구축했습니다.</li>
-                            <li>유저 관리 기능 (로그인, 로그아웃, 가입 승인 등)과 게시물 관리 기능 (CRUD)의 기능을 구현했습니다.</li>
-                            <li>Front-end 서버에서 게시물 기능 일부를 (좋아요, 대댓글 등) 브라우저에 정상적으로 표기되도록 수정했습니다.</li>
-                            <li>AWS EC2를 통해 Front-end 서버와 Back-end 서버를 배포하였습니다.</li>
+                            <li>유저 및 게시판 Schema 설계</li>
+                            <li>JWT를 활용한 login 유지 기능 구현</li>
+                            <li>게시판 CRUD 기능 구현</li>
+                            <li>Admin 기능(유저 및 게시물 관리 권한 부여) 구현</li>
+                            <li>AWS EC2를 활용한 Front-end 서버와 Back-end 서버 배포</li>
                         </ul>
                     </div>
                 </li>
