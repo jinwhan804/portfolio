@@ -45,6 +45,7 @@ const Skills = () => {
                         <li>JWT 토큰을 활용해 access token 발행이 가능합니다.</li>
                     </ul>
                 </li>
+
                 <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-center">
                     <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex md:flex-col items-left gap-[8px]">
                         <div className="flex items-center gap-[8px]">
@@ -64,25 +65,20 @@ const Skills = () => {
 
         
                 <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-center">
-                    <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
-                        <SiJavascript />
-                        <span className="md:w-[120px]">Javascript</span>
+                <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex md:flex-col items-left gap-[8px]">
+                        <div className="flex items-center gap-[8px]">
+                            <SiJavascript />
+                            <span className="md:w-[120px]">Javascript</span>
+                        </div>
+                        <div className="flex items-center gap-[8px]">
+                            <SiTypescript />
+                            <span className="md:w-[120px]">Typescript</span>
+                        </div>
                     </span>
                     <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                        <li>동기, 비동기의 개념을 이해하였습니다.</li>
-                        <li>예외 처리를 위한 try, catch문을 이해하였습니다.</li>
+                        <li></li>
                     </ul>
-                </li>
-                <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-center">
-                    <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
-                        <SiTypescript />
-                        <span className="md:w-[120px]">Typescript</span>
-                    </span>
-                    <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                        <li>interface을 공부하고 활용해 보았습니다.</li>
-                    </ul>
-                </li>
-            
+                </li>            
                 
                 <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-center">
                     <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex md:flex-col items-left gap-[8px]">
@@ -111,10 +107,26 @@ const Skills = () => {
                         </div>
                     </span>
                     <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                        <li>블록을 remixIDE로 배포해 보았습니다.</li>
+                        <li>NFT를 remixIDE로 배포해 보았습니다.</li>
                     </ul>
                 </li>
             
+                <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-center">
+                    <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex md:flex-col items-left gap-[8px]">
+                        <div className="flex items-center gap-[8px]">
+                            <SiGit />
+                            <span className="md:w-[120px]">Git</span>
+                        </div>
+                        <div className="flex items-center gap-[8px]">
+                            <SiGithub />
+                            <span className="md:w-[120px]">Github</span>
+                        </div>
+                    </span>
+                    <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
+                        <li>Git에 branch 생성이 가능하며 local에 연결하여 data push, pull을 할 수 있습니다.</li>
+                        <li>branch merge의 유의 사항을 이해하고 있으며 master branch 관리가 가능합니다.</li>
+                    </ul>
+                </li>
         
                 <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-center">
                     <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex md:flex-col items-left gap-[8px]">
@@ -133,25 +145,6 @@ const Skills = () => {
                         <li>상태관리에 대해 이해하고 redux를 활용하여 상태관리를 하였습니다.</li>
                     </ul>
                 </li>
-
-                <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-center">
-                    <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex md:flex-col items-left gap-[8px]">
-                        <div className="flex items-center gap-[8px]">
-                            <SiGit />
-                            <span className="md:w-[120px]">Git</span>
-                        </div>
-                        <div className="flex items-center gap-[8px]">
-                            <SiGithub />
-                            <span className="md:w-[120px]">Github</span>
-                        </div>
-                    </span>
-                    <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                        <li>Git에 branch 생성이 가능하며 local에 연결하여 data push, pull을 할 수 있습니다.</li>
-                        <li>2 개 이상의 branch를 merge하여 Git에 push할 수 있습니다.</li>
-                    </ul>
-                </li>
-
-                
             </ul>
         </Wrapper>
     )

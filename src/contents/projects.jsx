@@ -202,6 +202,7 @@ const Projects = () => {
 
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal}>
                 <ImageAndVideoSlider images={images1}/>
+                <h4>실행</h4>
             </Modal>
 
             <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
