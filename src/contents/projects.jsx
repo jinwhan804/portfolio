@@ -82,7 +82,7 @@ const Projects = () => {
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                             <li>블록체인 네트워크의 블록 데이터 저장을 위한 Schema 설계</li>
                             <li>블록 Number를 통한 블록 데이터 검색 기능 구현</li>
-                            <li>트랜잭션 CA를 통한 트랜잭션 데이터 검색 기능 구현</li>
+                            <li>CA를 통한 트랜잭션 데이터 검색 기능 구현</li>
                             <li>AWS EC2를 활용한 Back-end 서버 배포</li>
                         </ul>
                     </div>
