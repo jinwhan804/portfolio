@@ -76,7 +76,7 @@ const Skills = () => {
                         </div>
                     </span>
                     <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                        <li></li>
+                        <li>실행 컨텍스트의 개념을 이해하고 이를 기반으로 함수 설계가 가능합니다.</li>
                     </ul>
                 </li>            
                 
