@@ -6,13 +6,14 @@ import 'slick-carousel/slick/slick-theme.css'
 
 const ImageAndVideoSlider = ({ images}) => {
     const settings = {
+        dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
-        speed: 2000,
-        // autoplaySpeed: 10000,
-        arrows: false,
+        autoplay: true,
+        speed: 1000,
+        autoplaySpeed: 10000,
+        arrows: true,
     }
 
     return (

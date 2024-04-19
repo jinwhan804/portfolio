@@ -49,7 +49,7 @@ const Projects = () => {
                                     onClick={toggleModal}
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                 >
-                                    상세보기
+                                    사이트 시연
                                 </button>
                             </li>
                         </ul>
@@ -105,7 +105,7 @@ const Projects = () => {
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                     onClick={toggleModal2}
                                 >
-                                    상세보기
+                                    사이트 시연
                                 </button>
                             </li>
                         </ul>
@@ -202,7 +202,10 @@ const Projects = () => {
 
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal}>
                 <ImageAndVideoSlider images={images1}/>
-                
+                <br></br>
+                <ul>
+                    <li></li>
+                </ul>
             </Modal>
 
             <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
