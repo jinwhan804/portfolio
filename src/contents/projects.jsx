@@ -49,7 +49,7 @@ const Projects = () => {
                                     onClick={toggleModal}
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                 >
-                                    사이트 시연
+                                    상세보기
                                 </button>
                             </li>
                         </ul>
@@ -105,7 +105,7 @@ const Projects = () => {
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
                                     onClick={toggleModal2}
                                 >
-                                    사이트 시연
+                                    상세보기
                                 </button>
                             </li>
                         </ul>
@@ -203,13 +203,50 @@ const Projects = () => {
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal}>
                 <ImageAndVideoSlider images={images1}/>
                 <br></br>
+                <p className="font-bold">- 프로젝트 개요</p>
                 <ul>
-                    <li></li>
+                    <li> 연결된 블록체인 네트워크에 존재하는 모든 블록의 정보를 보여주는 사이트로<br></br> 시중의 이더스캔과 유사한 기능을 목표로 프로젝트를 진행했습니다.</li>
+                </ul>
+                <br></br>
+                <p className="font-bold">- 주요 기능</p>
+                <ul>
+                    <li> 1. 연결된 네트워크에 존재하는 전체 블록의 리스트를 제공합니다.</li>
+                    <li> 2. 각 블록이 보유한 세부 정보를 정리하여 보여줍니다.</li>
+                    <li> 3. 블록이 보유한 트랜잭션, 토큰 등의 리스트를 제공합니다.</li>
+                    <li> 4. 각 트랜잭션, 토큰 들의 세부 정보 및 거래 내역을 정리하여 공유합니다.</li>
+                </ul>
+                <br></br>
+                <p className="font-bold">- 프로젝트 내 주요 업무</p>
+                <ul>
+                    <li> 1. 백앤드 서버를 담당하여 블록 데이터 저장을 위한 Schema 및 CRUD를 설계했습니다.</li>
+                    <li> 2. 프론트 담당자들과의 소통을 위한 ERD, API 작업을 진행했습니다.</li>
+                    <li> 3. 백앤드 서버의 git을 담당하여 지속 관리했습니다.</li>
+                    <li> 4. AWS EC2로 백앤드 서버를 배포했습니다.</li>
                 </ul>
             </Modal>
 
             <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
                 <ImageAndVideoSlider images={images2}/>
+                <br></br>
+                <p className="font-bold">- 프로젝트 개요</p>
+                <ul>
+                    <li> 게임 플랫폼인 steam으로 부터 API를 받아와 현재 steam 게임의 조회수를 기준으로 순위를 나열하고 <br></br> 유저에게 정보를 제공하고 게시판을 통해 유저간 소통이 가능하게 설계한 사이트입니다.</li> 
+                </ul>
+                <br></br>
+                <p className="font-bold">- 주요 기능</p>
+                <ul>
+                    <li> 1. API로 게임 정보를 받아와 조회수의 순서대로 나열하여 보여줍니다.</li>
+                    <li> 2. 각 게임의 세부 정보를 상세 보기로 제공합니다.</li>
+                    <li> 3. 게시판 기능을 통해 타 유저의 의견을 보거나 내 의견을 올릴 수 있습니다.</li>
+                    <li> 4. 관리자 계정을 통해 유저 활동을 관리할 수 있습니다.</li>
+                </ul>
+                <br></br>
+                <p className="font-bold">- 프로젝트 내 주요 업무</p>
+                <ul>
+                    <li> 1. 백앤드 서버를 담당하여 게시판 기능 구현을 위한 Schema 및 CRUD를 설계했습니다.</li>
+                    <li> 2. 프론트 서버에서 게시판 기능 구현을 보조했습니다.(댓글, 대댓글, 조회수 등)</li>
+                    <li> 3. AWS EC2로 백앤드 서버와 프론트 앤드 서버를 배포했습니다.</li>
+                </ul>
             </Modal>
 
             <Modal show={isShowingModal3} onCloseButtonClick={toggleModal3}>
